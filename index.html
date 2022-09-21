@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content='Географическое распределение фамилий игроков лотереи "Удача в придачу" компании "Евроопт"'>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/leaflet.css"/>
     <link rel="stylesheet" href="css/MarkerCluster.css"/>
@@ -14,17 +14,21 @@
 </head>
 <body>
     <header>
+		<h1>Фамильная география Беларуси</h1>
+		<p>Карта распространения белорусских фамилий на основе данных о 821 919 уникальных игроках лотереи "Удача в придачу" компании "Евроопт".</p>
     </header>
 	<div id="search_box">
 		<input id="autocomplete" value="Вводите фамилию и выбирайте"
 					onkeyup="get_name(this.value)">
-		<button id="show_data">Узнать</button>
 	</div>
     <div id="results_list" class="hidden"></div>
     <p id="message"></p>
     <div id="mapid"></div>
     </main>
     <footer>
+		<p>Статус: испытательная версия.</p>
+		<p>Редактор проекта Алексей Медвецкий, am@opendata.by.</p>
+		<p>Репозиторий: <a href="https://github.com/ushchent/imena">github.com/ushchent/imena</a>.</p>
     </footer>
     <script src="js/script.js"></script>
 </body>
