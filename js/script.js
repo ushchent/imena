@@ -125,7 +125,7 @@ const get_data_by_name = name => {
 
 var baseLayer = L.tileLayer(
   'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-    attribution: '...',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 8
   }
 );
